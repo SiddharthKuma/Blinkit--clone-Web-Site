@@ -1,0 +1,233 @@
+                                        * {
+                                            font-family: 'Lato', sans-serif;
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        .navbar {
+                                            display: flex;
+                                            justify-content: space-around;
+                                            height: 86px;
+                                            border-bottom: 1px solid rgb(238, 238. 238);
+                                            align-items: center;
+                                            position: fixed;
+                                            /* z-index: 1000; */
+                                            left: 0;
+                                            right: 0;
+                                            top: 0;
+                                            z-index: 1000;
+                                            background-color: #ffffff;
+                                        }
+                                        
+                                        .nav-items {
+                                            text-decoration: none;
+                                            font-size: 18px;
+                                            font-weight: 400;
+                                            color: rgb(141, 12, 12);
+                                        }
+                                        
+                                        .feature-time {
+                                            color: rgb(0, 0, 0);
+                                            font-weight: 800px;
+                                            margin-bottom: 6px;
+                                            font-size: 18px;
+                                            font-weight: 900;
+                                            letter-spacing: 1px;
+                                        }
+                                        
+                                        .location {
+                                            font-size: 13px;
+                                            color: #000000;
+                                            font-weight: 500;
+                                        }
+                                        
+                                        #cart {
+                                            font-size: 16px;
+                                            color: rgb(255, 255, 255);
+                                            background-color: rgb(12, 131, 31);
+                                            font-weight: 700;
+                                            border-radius: 8px;
+                                            cursor: pointer;
+                                            height: 52px;
+                                            padding: 20px;
+                                        }
+                                        
+                                        .wrapper {
+                                            margin-top: 130px;
+                                            display: flex;
+                                            justify-content: center;
+                                            flex-direction: column;
+                                        }
+                                        /* .pop {
+    border-radius: 0px;
+    object-fit: fill;
+    cursor: default;
+} */
+                                        
+                                        .banner-container {
+                                            display: flex;
+                                            justify-content: center;
+                                            column-gap: 20px;
+                                        }
+                                        
+                                        .food-category-container {
+                                            display: grid;
+                                            /* justify-items: center;
+    align-items: center; */
+                                            grid-template-columns: repeat(10, 10%);
+                                            /* place-items: center; */
+                                            /* width: 1200px; */
+                                            justify-content: center;
+                                            gap: 0px;
+                                        }
+                                        
+                                        .food-itmes {
+                                            cursor: pointer;
+                                            border-radius: 0px;
+                                        }
+                                        
+                                        .food-items-container {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            /* row-gap: 25px */
+                                            line-height: 32px;
+                                            margin: 20px 0px;
+                                        }
+                                        
+                                        .main-details {
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .title {
+                                            color: rgb(28, 28, 28);
+                                            font-size: 24px;
+                                            font-weight: 600;
+                                            line-height: 32px;
+                                        }
+                                        
+                                        .see-all-text {
+                                            line-height: 32px;
+                                            font-size: 18px;
+                                            color: rgb(12, 131, 31);
+                                            text-decoration: none;
+                                            font-weight: 400;
+                                        }
+                                        
+                                        .items-container {
+                                            display: grid;
+                                            grid-template-columns: repeat(6, 1fr);
+                                            column-gap: 15px;
+                                        }
+                                        
+                                        .items-wrapper {
+                                            display: flex;
+                                            flex-direction: column;
+                                            background-color: #ffffff;
+                                            border: 0.5px solid #f9dede;
+                                            box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+                                            border-radius: 8px;
+                                            padding: 15px;
+                                            /* margin-left: 10px;
+    margin-right: 5px;
+    */
+                                        }
+                                        
+                                        .delivery-time {
+                                            display: flex;
+                                            border-radius: 4px;
+                                            border-width: 0px;
+                                            padding: 0px 4px;
+                                            background-color: rgb(248, 248, 248);
+                                            width: 65px;
+                                            align-items: center;
+                                            gap: 4px;
+                                        }
+                                        
+                                        .delivery-time img {
+                                            width: 15px;
+                                            height: 15px;
+                                        }
+                                        
+                                        .delivery-time span {
+                                            text-transform: uppercase;
+                                            font-weight: 700;
+                                            font-size: 9px;
+                                            color: rgb(54, 54, 54);
+                                        }
+                                        
+                                        .item-name {
+                                            color: (31, 31, 31);
+                                            font-weight: 600;
+                                            font-size: 13px;
+                                            margin: 12px 0px;
+                                        }
+                                        
+                                        .quantity {
+                                            color: rgb(102, 102, 102);
+                                            font-size: 12px;
+                                            margin-bottom: 15px;
+                                        }
+                                        
+                                        .other-details {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                        }
+                                        
+                                        .price {
+                                            color: rgb(31, 31, 31);
+                                            font-weight: 600;
+                                            font-size: 12px;
+                                        }
+                                        
+                                        .add-btn {
+                                            padding: 10px 20px;
+                                            cursor: pointer;
+                                            border: 1px solidrgv(49, 134, 22);
+                                            color: rgb(203, 226, 195);
+                                            font-weight: 600;
+                                            font-size: 13px;
+                                            background-color: rgba(30, 133, 184, 0.774);
+                                            border-radius: 0.375rem;
+                                            text-decoration: none;
+                                            text-transform: uppercase;
+                                        }
+                                        
+                                        @media screen and(min-width:320px) and (max-width:480px) {
+                                            .navbar {
+                                                justify-content: start;
+                                                padding-left: 47px;
+                                            }
+                                            .feature-time {
+                                                font-size: 13px;
+                                                font-weight: 700;
+                                            }
+                                            .location {
+                                                font-size: 10px;
+                                            }
+                                            .logo,
+                                            .nav-items,
+                                            .hide-banner {
+                                                display: none;
+                                            }
+                                            .food-category-container {
+                                                grid-template-columns: repeat(10, 12px);
+                                            }
+                                            .title {
+                                                font-size: 18px;
+                                            }
+                                            .see-all-text {
+                                                font-size: 15px;
+                                            }
+                                            .main-details {
+                                                justify-content: space-between;
+                                                width: 82%;
+                                                padding: 0px 90px;
+                                            }
+                                            .items-container {
+                                                gap: 20px;
+                                            }
+                                        }
